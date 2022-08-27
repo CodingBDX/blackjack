@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+}
+
+#dealer-cards img,
+#player-cards img {
+    width: 15vw;
+    height: 35vh;
+    margin: .2em;
+}
+
+#hit,
+#stay {
+    background-color: rgb(90, 21, 155);
+    color: white;
+    width: 4em;
+    height: 2em;
+    border: none;
+    border-radius: .5em;
+    font-size: 2em;
+}
+
+.closed {
+    background-color: aliceblue !important;
+    color: black !important;
+    font-size: 23em;
+}
