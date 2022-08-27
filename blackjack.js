@@ -112,8 +112,7 @@ function staying() {
     // else if (dealerSum < playerSum) { return message = "you win!"; }
     // else if (dealerSum > playerSum) { return message = "you lose!"; }
 
-
-    switch (message) {
+    switch (true) {
         case (playerSum > 21):
             message = "you Lose!";
             break;
@@ -133,10 +132,13 @@ function staying() {
         case (dealerSum > playerSum):
             message = "you lose!";
             break;
+        default:
+            message = "";
+            break;
     }
-    scoring.innerText = message;
     playerSumId.innerText = playerSum;
     dealerSumId.innerText = dealerSum;
+    scoring.innerText = message;
 
     console.log(message)
 }
