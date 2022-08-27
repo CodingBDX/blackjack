@@ -25,3 +25,12 @@ body {
     color: black !important;
     font-size: 23em;
 }
+
+#results {
+    font-size: 1.6em;
+    font-weight: 900;
+    background-color: rgb(91, 27, 151);
+    color: white;
+    margin: .7em;
+
+}

@@ -148,7 +148,7 @@ function getValue(card) {
     let value = data[0];
 
     if (isNaN(value)) {
-        if (value == 'A') {return 11 } else {return 10 };
+        if(value === 'A'){ return 11 }  else { return 10 };
     } else {
         return parseInt(value);
     }
